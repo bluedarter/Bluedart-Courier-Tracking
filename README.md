@@ -1,14 +1,16 @@
 # Bluedart-Courier-Tracking
-An API based access for Bluedart couriers. You can track postage rates, pin code finder, track parcels, e.t.c through this. This repository is maintained by 
+An API based access for Bluedart couriers. You can track postage rates, pin code finder, track parcels, e.t.c through this. This repository is maintained by individual developers. You can commit changes and push them. We will approve and merge them in case they are helpful commits.
 
 ##What is Bluedart
 
-Bluedart.com is the official website of a leading courier service based in South East Asia. 
+Bluedart.com is the official website of a leading courier service based in South East Asia. [Bluedart surface courier tracking page](http://www.bluedarttrackings.in/) is a direct and straight forward way to track your couriers and packages for free online. However, it cannot be directly embbeded or consumed as it doesn't offer any Public API.
 
-This site was built using [GitHub Pages](https://pages.github.com/).
+We are using screen scraping techniques to fetch tracking status results, postage rates and other useful information. This information can be formatted based on your liking.
 
 
 ##Tool Used
+
+**Scrapy:** [Scrapy](http://scrapy.org/) is one of the best Python scraper libraries out there.
 
 **Beautiful Soup**: Beautiful Soup is a great library to parse HTML and XML files. It can extract useful data from the clutter of information. We have used this awesome Python library for parsing of data such as postal codes, services charge, weight to cost calculator, e.t.c.
 
